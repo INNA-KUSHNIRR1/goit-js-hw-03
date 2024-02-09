@@ -3,8 +3,6 @@ function filterArray(numbers, value) {
   for (const number of numbers) {
     if (number > value) {
       arrayNumbers.push(number);
-    } else {
-      continue;
     }
   }
   return arrayNumbers;
